@@ -120,7 +120,7 @@ within the accessions included in the dataset, only three levels can be observed
 
 * Level 1: <1.28mm
 * Level 2: 1.28mm - 2.24mm
-* Level 3: >2.24
+* Level 3: >2.24mm
 
 [Menu](#menu)
 
