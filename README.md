@@ -95,6 +95,34 @@ Claw.clean <- clean_outliers(U35_PE, 1.5, 1.8)
 Claw.class <- calc_du(Claw.clean)
 ```
 
+The procedure provides the following results:
+
+  - Nacc: 52
+  - Nacc: 43
+  - vm\_g: 0.781
+  - VM\_g: 2.864
+  - DU : 0.959
+  - P50 : 1.757
+  - Central class: 1.28 - 2.24
+
+That is, data for 43 accessions has been used to define the scale, the
+remaining 9 accessions were found too variable and would distort the
+classification, providing a scale with intervals too wide to be of use.
+The accessions with the lowest (vm\_g) and highest (VM\_g) values,
+respectively. The discrimination unit is 0.959 mm, that is, accessions
+differing more than that value will be assigned to different levels. As
+the median value of the accesions for that characteristic is 1.757 mm,
+the central class is 1.28 - 2.24. Below the central class there is just
+one level, as 1.28-0.96 = 0.32, which is smaller than the minimum level
+observed. Above the central class, only one addtional level can be
+defined, as 2.24 + 0.96 = 3.20, wich is above the maximum value observed
+in the collection. Therefore, within the accessions included in the
+dataset, only three levels can be observed, as follows:
+
+  - Level 1: \<1.28mm
+  - Level 2: 1.28mm - 2.24mm
+  - Level 3: \>2.24
+
 [Menu](#menu)
 
 ## Licenses
