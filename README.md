@@ -131,6 +131,9 @@ The R/phenoclass package as a whole is distributed under [GPL-3 (GNU
 General Public License
 version 3)](https://www.gnu.org/licenses/gpl-3.0).
 
+## Acknowledgements
+This research has been funded by project PID2019-108081RR-C22 (APPLECUT) funded by MCIN/ AEI /10.13039/501100011033
+
 ## Author
 
 [Carlos Miranda](https://github.com/Carm1r)
